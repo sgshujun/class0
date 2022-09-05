@@ -1,0 +1,36 @@
+h1 {
+    color:whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 0, 212);
+    font-size: 15px;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+
+.flowers {
+width: 400px;
+position: relative;
+top:50%;
+left: 50%;
+transform: translate(-50%,-100%);
+
+}
+
+
+body {
+    background-color: black;
+}
