@@ -1,0 +1,85 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+
+body {
+    padding: 25px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(243, 243, 243);
+  
+  }
+
+.project_all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_search{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.pokemon_image{
+    width:70%;
+}
+
+.project_play{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+}
+
+.part2btn{
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+.part1btn{
+    height: 40px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.input{
+
+    height:33px;
+}
+
+.walkcycle{
+    padding: 25px;
+    align-items: center;
+    width:70%;
+}
+
+.pokemon-button{
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+#canvas-container {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.cursor {
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba(0,211,255, .6);
+    border-radius: 50%;
+  
+    position: absolute;
+}
+
