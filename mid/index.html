@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKUGA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+
+</head>
+
+<body>
+    <section class="project_section">
+        <img class="project_image" src="title.png" alt="cycle"/>
+    </section>
+    <!-- <h1>The secret of Animation</h1> -->
+    <!-- <h2>today's Pokemon is :<span id="pokemon-name"></span></h2> -->
+
+    <div id="canvas-container"></div>
+
+    <section class="project_all">
+        <section class="project_play">
+            <h2 class="project_sub-heading">Play with walkcycle</h2>
+            <button id="go_next" class="part2btn">keep clicking!</button>
+            <img class="walkcycle" id="imgp2"></img>
+        </section>
+
+        <section class="project_search">
+            <h2 class="project_sub-heading">Search The frame number(1 to 12)</h2>
+            <input id="pokemon-input" class="input"></input>
+            <button id="pokemon-button" class="part1btn">Get keyframe</button>
+            <div class="pokemon_info">
+                <h3 class="pokemon_name" id="p-name"></h3>
+                <img class="pokemon_image" id="p-img"></img>
+            </div>
+        </section>
+    </section>
+
+
+
+    <!-- <div class="cursor"></div> -->
+    <script src="app.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>

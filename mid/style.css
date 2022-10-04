@@ -1,0 +1,106 @@
+
+
+.project_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image{
+    width: 30%;
+}
+
+
+body {
+    padding: 25px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(243, 243, 243);
+
+  
+  }
+
+.project_all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_search{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.pokemon_image{
+    width:70%;
+}
+
+.project_play{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+}
+
+.part2btn{
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    background-color:#00eeff;
+    border-radius: 20px;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    border: 2px solid #1E9FFF;
+}
+
+.part1btn{
+    height: 40px;
+    font-family: 'Secular One', sans-serif;
+    background-color:#00eeff;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 2px solid #1E9FFF;
+}
+
+button:active{
+
+    background:rgb(255, 196, 0);
+    border: 2px solid #ff831e;
+}
+
+.input{
+    border-radius: 20px;
+    height:33px;
+    border: 2px solid #1E9FFF;
+}
+
+.walkcycle{
+    padding: 25px;
+    align-items: center;
+    width:70%;
+}
+
+.pokemon-button{
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+#canvas-container {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.project_sub-heading{
+    color: #0376ce;
+
+}
